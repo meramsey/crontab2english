@@ -1,4 +1,4 @@
-NAME
+All credits to original Author and site: http://interglacial.com/~sburke/pub/crontab2english.html
 
 crontab2english -- explain crontab commands in English
 SYNOPSIS
