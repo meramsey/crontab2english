@@ -2,7 +2,7 @@
 #: explain crontab commands in English
 ############################################################################
 require 5;
-my $VERSION = '0.72'; 
+my $VERSION = '0.73'; 
 
 =for html <!-- program last modified Time-stamp: "2012-11-09 15:06:33 MST"
   Regenerate this HTML file with:
@@ -546,7 +546,7 @@ sub process_one_command {
   
   if($Filter_Prefix) {
     print
-      map("$Filter_Prefix $_\n",
+      map("$Filter_Prefix $_\n\n",
           (@command == 1) ? () : (@command), # be concise for simple cases
           @time_lines
          ),
